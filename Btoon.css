@@ -173,7 +173,7 @@ ul li a:hover{
        padding-top: 30px;
         background-image:linear-gradient(rgba(0, 0, 0, 0.482),rgba(8, 8, 8, 0.159)),url(600-bg.jpg);
         background-size: cover;
-        width: 96%;
+       width: 100%;
         height: 97vh;
     
     }
@@ -197,7 +197,7 @@ ul li a:hover{
         text-align: center;
         background-color: rgba(0, 0, 0, 0.708);
         width: 300px;
-        margin-top: 200px;
+        margin-top: 160px;
         
         
         
