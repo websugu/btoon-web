@@ -132,19 +132,20 @@ ul li a:hover{
   
 
   @media (max-width: 800px){
-    .checkbtn{
+   .checkbtn{
         display: block;
         font-size: 25px;
         padding-right:30px ;
+        z-index: 300;
         }
     
     ul{
         display: block;
         position: fixed;
         width: 100%;
-        height: 95vh;
+        height: 97vh;
         background: #ffffff;
-        top: 80px;
+        top: 0px;
         text-align: center;
         left: -130%;
         z-index: 200;
