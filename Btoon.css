@@ -197,7 +197,7 @@ ul li a:hover{
     .Enjoy-on-btoon{
          text-align: center;
         background-color: rgba(0, 0, 0, 0.708);
-        height: 45vh;
+        height: 50vh;
         width: 355px;
         border-color: rgba(255, 254, 254, 0.518);
         border-style: solid;
@@ -217,17 +217,17 @@ ul li a:hover{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 33px;
         padding-top: 15px;
+        padding-bottom: 15px;
     }
       
     .Enjoy-on-btoon p{
         color: rgba(212, 212, 212, 0.851);
-        padding-top: 20px;
-        font-size: 14px;
+        font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
     }
     .Enjoy-on-btoon img{
-        width: 75%;
-        padding-top: 20px;
+        width: 74%;
+        padding-top: 10px;
     }
     .get-started-today{
         text-align: center;
