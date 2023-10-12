@@ -197,9 +197,9 @@ ul li a:hover{
     .Enjoy-on-btoon{
          text-align: center;
         background-color: rgba(0, 0, 0, 0.708);
-        height: 20vh;
+        height: 26vh;
         width: 355px;
-        border-color: white;
+        border-color: rgba(178, 177, 177, 0.39);
         border-style: solid;
         border-width:1px ;
         margin-top: 200px;
