@@ -195,30 +195,46 @@ ul li a:hover{
     }
 
     .Enjoy-on-btoon{
-        text-align: center;
+         text-align: center;
         background-color: rgba(0, 0, 0, 0.708);
-        width: 300px;
-        margin-top: 160px;
+        height: 30vh;
+        width: 355px;
+        border-color: rgba(178, 177, 177, 0.39);
+        border-style: solid;
+        border-width:1px ;
+        margin-top: 200px;
+        border-radius: 7px;
         
         
         
     }
     .Enjoy-on-btoon h1{
-        font-size: 29px;
+        font-size: 30px;
+        padding-top: 20px;
     }
     .Enjoy-on-btoon h2{
         color: #6d2eff;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 33px;
+        padding-top: 24px;
+    }
+      
+    .Enjoy-on-btoon p{
+        color: rgba(212, 212, 212, 0.851);
+        padding-top: 34px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20px;
     }
     .Enjoy-on-btoon img{
         width: 75%;
+        padding-top: 30px;
     }
     .get-started-today{
         text-align: center;
     }
-    .get-started-today button{
-        width: 80%;
+   .get-started-today button{
+        width: 355px;
         height: 50px;
     }
 
