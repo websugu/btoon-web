@@ -1,0 +1,243 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+  background-color: #000000;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0px 3px 6pc rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 142px;
+}
+
+header nav img {
+ width: 9%;
+ margin-left: 30px;
+}
+
+header nav .tabs {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .tabs .tab {
+  display: block;
+}
+
+header nav .tabs .tab a[data-switcher] {
+  display: block;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.head-main{
+  display: none;
+}
+
+.nav_2{
+  display: none;
+}
+/* scroll button */
+.scroll-buttons {
+  display: none;
+}
+
+/* end button */
+
+main {
+  padding-left: 10px;
+}
+.pages {
+  margin-top: 50px;
+  font-size: 17px;
+  font-family: 'Bebas Neue', sans-serif;
+  border-radius: 8px;
+}
+.pages h2{
+    padding-bottom: 15px;
+}
+.pages .page {
+  display: none;
+}
+
+.pages .page.is-active {
+  display: block;
+}
+
+
+
+
+
+  .scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    
+  }
+  .scroll-container img {
+    padding: 5px;
+    width:300px;
+    height:180px;
+    border-radius: 15px;
+  }
+  .scroll-container::-webkit-scrollbar{
+    display: none;
+  }
+/* phone items */
+.items-phone{
+  display: none;
+}
+/* phone items end */
+  /* md q */
+  @media only screen and (max-width: 900px){
+    header nav img {
+        display: none;
+       }
+       
+       /* scroll button */
+.scroll-buttons {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  display: block;
+}
+.scroll-buttons button {
+  padding: 5px;
+  width: 80px;
+  color: #b7b5b5;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 50px;
+  border: none;
+  border-style: solid;
+  border-color: #b7b5b5;
+  border-width: 1px;
+  background: none;
+}
+.scroll-buttons::-webkit-scrollbar{
+  display:none;
+}
+/* end button */
+       header nav .tabs {
+         display: none;
+       }
+       
+       .nav_2{
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: center;
+        
+       }
+       .nav_2_icons button{
+        background: none;
+        font-size: 25px;
+       }
+       .head-bg{
+        background-image:linear-gradient(rgba(222, 245, 253, 0.558),#eee),url(images/head-item.jpg);
+        background-size: cover;
+        width: 100%;
+        border-style: solid;
+        border-color:#eee;
+       }
+       
+      
+       
+    main {
+      padding-left: 0px;
+    }
+
+
+    .head-main{
+      text-align: center;
+      display: block;
+      margin-bottom: 30px;
+  } 
+
+  
+  
+    .head-img img{
+      position: relative;
+      border-radius: 7px;
+    }
+    .head-content{
+      position: absolute;
+      top: 74%;
+      left:10%;
+    }
+    .head-content p{
+        color: rgb(236, 233, 233);
+        font-size: 13px;
+        padding: 20px;
+    }
+    .head-content button{
+        width: 120px;
+        height: 40px;
+        margin: 8px;
+        border-radius: 7px;
+        border:none;
+        font-size: 18px;
+    }
+
+
+
+    .nav_2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;  
+    }
+    .nav_2 img{
+      margin-left: 20px;
+      width: 18%;
+    }
+    .nav_2_icons button{
+        border: none;
+        font-size: 19px;
+        margin: 20px;
+    }
+    
+    .scroll-container img {
+        padding: 3px;
+        width:120px;
+        height:176px;
+        border-radius: 10px;
+      }
+      .items-phone h2{
+        margin-top:50px ;
+        font-size: 18px;
+        padding-left: 15px;
+        color: white;
+      }
+
+      .pages {
+        margin-top: 10px;
+      }
+      .global-bg{
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgb(0, 0, 0) 100%),url(https://wallpaperaccess.com/full/340452.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      /* desktop item */
+      .items{
+        display: none;
+      }
+      /* phone items */
+      .items-phone{
+        display: block;
+      }
+     
+  } 
