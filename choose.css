@@ -15,6 +15,18 @@ header {
   box-shadow: 0px 3px 6pc rgba(0, 0, 0, 0.1);
 }
 
+#preloader{
+  background: #000000 url(images/Rouge\ Dégradé\ Technologie\ et\ Gaming\ Logo.gif) no-repeat center center;
+  background-size: 36%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+}
+
+.hide iframe{
+visibility: hidden;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -25,8 +37,6 @@ header nav {
 header nav img {
  width: 12%;
  margin-left: 30px;
- margin-top:15px;
-  cursor: pointer;
 }
 
 header nav .tabs {
@@ -46,17 +56,6 @@ header nav .tabs .tab a[data-switcher] {
   color: #b9b9b9;
   cursor: pointer;
 }
-#preloader{
-  background: #000000 url(Rouge\ Dégradé\ Technologie\ et\ Gaming\ Logo.gif) no-repeat center center;
-  background-size: 36%;
-  height: 100vh;
-  position: fixed;
-  z-index: 100;
-}
-
-.hide iframe{
-visibility: hidden;
-}
 
 .head-main{
   display: none;
@@ -65,6 +64,13 @@ visibility: hidden;
 .nav_2{
   display: none;
 }
+
+.items-phone-2 h2{
+  margin-top:30px ;
+    font-size: 18px;
+    padding-left: 15px;
+    color: white;
+ }
 /* scroll button */
 .scroll-buttons {
   display: none;
@@ -109,6 +115,9 @@ main {
   }
   .scroll-container::-webkit-scrollbar{
     display: none;
+  }
+  .items h2{
+    color: white;
   }
 /* phone items */
 .items-phone{
@@ -215,7 +224,7 @@ main {
     }
     .nav_2 img{
       margin-left: 20px;
-      width: 30%;
+      width: 26%;
     }
     .nav_2 span{
       color: rgb(102, 25, 255);
@@ -255,7 +264,7 @@ main {
       .items-phone{
         display: block;
       }
-    .items-phone-2{
+     .items-phone-2{
       display:block
      }
      .items-phone-2 h2{
@@ -264,7 +273,8 @@ main {
         padding-left: 15px;
         color: white;
      }
-
+     
+     
      .recent-saison button{
       background-color:#f80000;
       font-size: 15px;
@@ -277,8 +287,8 @@ main {
       margin-left:15px;
       margin-bottom: 15px;
      }
-
-    #preloader{
+    
+     #preloader{
       background-size:55%;
       width: 100%;
     }
