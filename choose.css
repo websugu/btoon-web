@@ -254,5 +254,28 @@ main {
         padding-left: 15px;
         color: white;
      }
+
+    .scroll-container-2 img{
+      position: relative;
+     }
+     .recent-saison img{
+      position: absolute;
+      top:105.50%;
+      left:146px;
+      width: 47px;
+     }
+     .recent-saison button{
+      background-color:rgb(102, 25, 255);
+      font-size: 15px;
+      border: none;
+      width: 165px;
+      color: white;
+      height: 25px;
+      font-weight: 600;
+      border-radius: 5px 5px 0px 0px;
+      position: absolute;
+      top:134.50%;
+      left:18px;
+     }
      
   } 
