@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -169,7 +169,7 @@ main {
         font-size: 25px;
        }
        .head-bg{
-        background-image:linear-gradient(rgba(222, 245, 253, 0.558),#eee),url(images/head-item.jpg);
+        background-image:linear-gradient(rgba(222, 245, 253, 0.558),#eee),url(head-item.jpg);
         background-size: cover;
         width: 100%;
         border-style: solid;
