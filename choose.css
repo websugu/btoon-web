@@ -224,7 +224,7 @@ main {
     }
     .nav_2 img{
       margin-left: 20px;
-      width: 26%;
+      width: 32%;
     }
     .nav_2 span{
       color: rgb(102, 25, 255);
@@ -290,6 +290,6 @@ main {
     
      #preloader{
       background-size:55%;
-      width: 100%;
+      width: 150%;
     }
   } 
