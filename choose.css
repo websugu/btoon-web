@@ -44,6 +44,17 @@ header nav .tabs .tab a[data-switcher] {
   color: #000000;
   cursor: pointer;
 }
+#preloader{
+  background: #000000 url(Rouge\ Dégradé\ Technologie\ et\ Gaming\ Logo.gif) no-repeat center center;
+  background-size: 36%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+}
+
+.hide iframe{
+visibility: hidden;
+}
 
 .head-main{
   display: none;
@@ -264,5 +275,9 @@ main {
       margin-left:15px;
       margin-bottom: 15px;
      }
-     
+
+    #preloader{
+      background-size:55%;
+      width: 100%;
+    }
   } 
