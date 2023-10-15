@@ -230,7 +230,7 @@ main {
         margin-top: 10px;
       }
       .global-bg{
-        background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgb(0, 0, 0) 100%),url(https://wallpaperaccess.com/full/340452.png);
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.63) 0%,rgb(0, 0, 0) 100%),url(https://wallpaperaccess.com/full/340452.png);
         background-repeat: no-repeat;
         background-size: cover;
       }
@@ -253,7 +253,7 @@ main {
      }
 
      .recent-saison button{
-      background-color:rgb(102, 25, 255);
+      background-color:#f80000;
       font-size: 15px;
       border: none;
       width: 173px;
