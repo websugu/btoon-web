@@ -239,5 +239,14 @@ main {
       .items-phone{
         display: block;
       }
+    .items-phone-2{
+      display:block
+     }
+     .items-phone-2 h2{
+      margin-top:40px ;
+        font-size: 18px;
+        padding-left: 15px;
+        color: white;
+     }
      
   } 
