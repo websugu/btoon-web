@@ -200,12 +200,9 @@ main {
         justify-content: space-between;
         padding-bottom: 20px;  
     }
-    .nav_2 h1{
+    .nav_2 img{
       margin-left: 20px;
-      font-size: 27px;
-      color: white;
-      font-family: 'Anton', sans-serif;
-      font-weight: 800;
+      width: 26%;
     }
     .nav_2 span{
       color: rgb(102, 25, 255);
