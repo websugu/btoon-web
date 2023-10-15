@@ -25,6 +25,7 @@ header nav {
 header nav img {
  width: 9%;
  margin-left: 30px;
+ margin-top:15px;
 }
 
 header nav .tabs {
