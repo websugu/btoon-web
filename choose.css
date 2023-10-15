@@ -116,10 +116,10 @@ main {
   display: block;
 }
 .scroll-buttons button {
-  padding: 5px;
-  width: 80px;
+  padding: 5px 15px 5px 15px;
+  
   color: #b7b5b5;
-  font-size: 16px;
+  font-size: 15px;
   margin: 5px;
   border-radius: 50px;
   border: none;
