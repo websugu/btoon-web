@@ -337,8 +337,8 @@ ul li a:hover{
         border-width:0.50px ;
         margin-top: 20px;
         border-radius: 7px;
-        width: 380px;
-        box-shadow: inset 0px 1px 30px 1px rgba(62, 9, 9, 0.918);
+        width: 350px;
+        box-shadow: inset 0px 1px 30px 1px rgba(98, 4, 4, 0.918);
         padding: 10px 10px 10px 10px;
         display: block;
      }
