@@ -66,10 +66,10 @@ ul li a:hover{
 
 .Enjoy-on-btoon{
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.675);
+/*     background-color: rgba(0, 0, 0, 0.675); */
     width: 500px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 180px;
     padding: 30px 30px 30px 30px;
     border-radius: 5px;
     
@@ -77,7 +77,7 @@ ul li a:hover{
 .Enjoy-on-btoon h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 48px;
 }
 /* .Enjoy-on-btoon h4{
     color:#c60303;
@@ -85,7 +85,7 @@ ul li a:hover{
     font-size: 20px;
 }  */
 .Enjoy-on-btoon img{
-    width: 44%;
+    width: 52%;
 }
 .Enjoy-on-btoon p{
     color: #b9b9b9;
