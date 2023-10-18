@@ -170,6 +170,8 @@ ul li a:hover{
     background-color: #ffffff;
     width: 80%;
     margin: auto;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
 
 }
 .alert-contents  p,.alert-contents-2 p{
