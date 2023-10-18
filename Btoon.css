@@ -67,7 +67,7 @@ ul li a:hover{
 .Enjoy-on-btoon{
     text-align: center;
     /* background-color: rgba(0, 0, 0, 0.675); */
-    width: 500px;
+    
     margin: auto;
     margin-top: 180px;
     padding: 30px 30px 30px 30px;
@@ -76,7 +76,7 @@ ul li a:hover{
 .Enjoy-on-btoon h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
+    font-size: 54px;
 }
 /* .Enjoy-on-btoon h4{
     color:#c60303;
@@ -94,7 +94,7 @@ ul li a:hover{
     text-align: center;
 }
 .get-started-today button{
-    width: 32.57%;
+    width: 30%;
     height: 40px;
     border-radius:5px;
     border: none;
