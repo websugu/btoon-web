@@ -388,14 +388,14 @@ ul li a:hover{
     margin-top: 70px;
 }
 .alert-contents p i{
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 28px;
 }
 .alert-contents-display{
     display: flex;
     justify-content: center;
     background-color: #ffffff;
-    width: 94.80%;
+    width: 94%;
     margin: auto;
     margin-bottom: 30px;
     border-radius: 0px 0px 10px 10px;
