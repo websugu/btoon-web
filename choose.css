@@ -123,7 +123,7 @@ main {
     padding: 5px;
     width:300px;
     height:180px;
-    border-radius: 15px;
+    border-radius: 8px;
   }
   .scroll-container::-webkit-scrollbar{
     display: none;
